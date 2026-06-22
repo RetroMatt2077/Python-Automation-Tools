@@ -40,3 +40,54 @@ A collection of practical, beginner-friendly Python automation scripts to boost 
    git clone https://github.com/RetroMatt2077/Python-Automation-Tools.git
    cd Python-Automation-Tools# Python-Automation-Tools
 Practical Python automation scripts for everyday productivity.
+
+
+Install dependencies
+pip install -r requirements.txt
+
+Run any tool
+python todo_manager.py --prompt
+python qr_code_generator.py --prompt
+python weather_cli.py --prompt
+
+✨ Features
+All tools work great on Pydroid (Android)
+Interactive mode (--prompt) for easy mobile use
+Clean, well-commented code
+Most tools require no extra setup
+Persistent storage where needed (todos, etc.)
+
+🛠️ Technologies Used
+Python 3 (Standard Library)
+requests, beautifulsoup4
+qrcode[pil], pillow
+pyperclip (optional)
+
+📂 How to Use Each Tool
+Most tools support --prompt for interactive mode (recommended on mobile)
+Use --help on any script for options:
+python backup_tool.py --help
+Notable Setup
+Weather CLI: Requires a free API key from OpenWeatherMap
+Email Sender: Use Gmail App Password (not regular password)
+
+🎯 Learning Goals
+File system operations
+Web scraping & APIs
+Data persistence (JSON)
+Command-line interfaces
+Email automation
+Practical Python scripting
+
+🤝 Contributing
+Feel free to add new tools! Some ideas:
+Image batch processor
+File duplicate finder
+Expense tracker
+YouTube downloader (educational)
+
+📜 License
+MIT License — Free to use, modify, and learn from.
+
+Made with ❤️ by RetroMatt2077
+Automate the boring stuff — one script at a time!
